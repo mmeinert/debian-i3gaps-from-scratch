@@ -21,11 +21,10 @@ Contrib and non-free components, needed for compiling stuff later on.
 8. Sets wallpaper.
 9. Downloads newest version of i3-gaps and installs it.
 10. Compile and installs Termite terminal.
-11. Copy modified xorg.conf to /etc/X11/ for tear free desktop (Intel).
-12. Copy Overpass fonts.
-13. Compile and installs Infinality for OSX looking font rendering.
-14. Installs oh-my-zsh theme for zsh shell.
-15. Copy configs for i3, leafpad, ranger and termite.
+11. Copy Overpass fonts.
+12. Compile and installs Infinality for OSX looking font rendering.
+13. Installs oh-my-zsh theme for zsh shell.
+14. Copy configs for i3, leafpad, ranger and termite.
 
 #### What it doesn't do ?
 
@@ -49,15 +48,8 @@ chmod +x run.sh
 Then follow instructions, and when script finishes, type:
 `sudo reboot`
 
-3. To start i3, type in `startx`
-4. You will need to set GTK theme manually in Chromium.
-5. You may now comment out deb-src lines from your /etc/apt/sources.list
-
-IMPORTANT!
-
-If you have problem logging in after running the script, it may be xorg.conf causing this, in this case do: 
-
-`sudo rm /etc/X11/xorg.conf`
+3. You will need to set GTK theme manually in Chromium.
+4. You may now comment out deb-src lines from your /etc/apt/sources.list
 
 #### Custom keybindings: ($mod = windows key)
 
